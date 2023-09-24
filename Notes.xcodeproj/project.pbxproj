@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1A9B13BD2ABF3A4100930B55 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B13BC2ABF3A4100930B55 /* Note.swift */; };
+		1A9B13BF2AC01A8B00930B55 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B13BE2AC01A8B00930B55 /* DetailView.swift */; };
+		1AE2E3FB2AC07B0F001B2C31 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2E3FA2AC07B0F001B2C31 /* CreditsView.swift */; };
+		1AE2E3FE2AC07B52001B2C31 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2E3FD2AC07B52001B2C31 /* HeaderView.swift */; };
+		1AE2E4002AC080D1001B2C31 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2E3FF2AC080D1001B2C31 /* SettingsView.swift */; };
 		1AE3BAEB2AAFA7BA00606230 /* Notes Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1AE3BAEA2AAFA7BA00606230 /* Notes Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1AE3BAF02AAFA7BA00606230 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3BAEF2AAFA7BA00606230 /* NotesApp.swift */; };
 		1AE3BAF22AAFA7BA00606230 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3BAF12AAFA7BA00606230 /* ContentView.swift */; };
@@ -41,6 +45,10 @@
 
 /* Begin PBXFileReference section */
 		1A9B13BC2ABF3A4100930B55 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		1A9B13BE2AC01A8B00930B55 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1AE2E3FA2AC07B0F001B2C31 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		1AE2E3FD2AC07B52001B2C31 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1AE2E3FF2AC080D1001B2C31 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1AE3BAE42AAFA7BA00606230 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE3BAEA2AAFA7BA00606230 /* Notes Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE3BAEF2AAFA7BA00606230 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
@@ -64,6 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				1AE3BAF12AAFA7BA00606230 /* ContentView.swift */,
+				1A9B13BE2AC01A8B00930B55 /* DetailView.swift */,
+				1AE2E3FA2AC07B0F001B2C31 /* CreditsView.swift */,
+				1AE2E3FF2AC080D1001B2C31 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -74,6 +85,14 @@
 				1A9B13BC2ABF3A4100930B55 /* Note.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1AE2E3FC2AC07B3D001B2C31 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2E3FD2AC07B52001B2C31 /* HeaderView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		1AE3BADD2AAFA7B900606230 = {
@@ -96,6 +115,7 @@
 		1AE3BAEE2AAFA7BA00606230 /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				1AE2E3FC2AC07B3D001B2C31 /* Components */,
 				1A9B13BB2ABF3A3300930B55 /* Model */,
 				1AE3BAEF2AAFA7BA00606230 /* NotesApp.swift */,
 				1A9B13BA2ABF3A1800930B55 /* View */,
@@ -211,8 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE2E4002AC080D1001B2C31 /* SettingsView.swift in Sources */,
 				1AE3BAF22AAFA7BA00606230 /* ContentView.swift in Sources */,
+				1AE2E3FE2AC07B52001B2C31 /* HeaderView.swift in Sources */,
+				1A9B13BF2AC01A8B00930B55 /* DetailView.swift in Sources */,
 				1AE3BAF02AAFA7BA00606230 /* NotesApp.swift in Sources */,
+				1AE2E3FB2AC07B0F001B2C31 /* CreditsView.swift in Sources */,
 				1A9B13BD2ABF3A4100930B55 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
